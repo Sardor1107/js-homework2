@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box {
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .imghtml {
+    display: none;
+}
+.imgcss {
+    display: none;
+}
+
+.imgjs {
+    display: none;
+}
+.open {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.opencss {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.openjs {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.box__btn {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    padding: 30px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 10px #79b3d4;
+}
+.box__btn:not(:first-child) {
+    margin-top: 60px;
+}
+.box__btn1 {
+    background-color: rgb(20, 20, 191);
+}
+.box__btn2 {
+    background-color: rgb(188, 20, 20);
+}
+.box__btn3 {
+    background-color: rgb(20, 161, 18);
+}
